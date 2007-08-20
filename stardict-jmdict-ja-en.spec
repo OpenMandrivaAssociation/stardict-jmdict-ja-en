@@ -1,5 +1,5 @@
 %define	version	2.4.2
-%define release	3mdk
+%define release	%mkrel 3
 %define dict_format_version	2.4.2
 
 Summary:	JMDICT (Japanese -> English dictionary) converted to StarDict 2
