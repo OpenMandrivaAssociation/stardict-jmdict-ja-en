@@ -9,7 +9,6 @@ Release:	%{release}
 License:	General Dictionary Licence
 Group:		Databases
 URL:		http://stardict.sourceforge.net/
-Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildArch:	noarch
 
 Source0:	http://prdownloads.sourceforge.net/stardict/%{name}-%{version}.tar.bz2
