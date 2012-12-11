@@ -48,3 +48,22 @@ rm -rf %{buildroot}
 %doc general-dictionary-licence.html
 %{_datadir}/stardict/dic/*
 
+
+
+%changelog
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.4.2-5mdv2009.0
++ Revision: 242736
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Aug 20 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.4.2-3mdv2008.0
++ Revision: 67663
+- use %%mkrel
+
+
+* Sat Oct 01 2005 Abel Cheung <deaddog@mandriva.org> 2.4.2-3mdk
+- first Mandriva package
+
